@@ -442,7 +442,7 @@ CUSTOM STYLES
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   background-color: LightGray;
 }
 
@@ -496,7 +496,7 @@ body {
 }
 
 .introduction h1 {
-  margin-top: 17.5rem;
+  margin-top: 17rem;
   font-size: 3.125rem;
 }
 
@@ -513,6 +513,7 @@ body {
 }
 
 button {
+  display: block;
   width: 9.688rem;
   background-color: #F15A29;
   border-color: #F15A29;
@@ -522,9 +523,13 @@ button {
   padding: 1rem 1.5rem;
   color: white;
   font-size: 1.125rem;
-  -webkit-appearance: button;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #D9400E;
+  border-color: #CF3D0E;
+  cursor: pointer;
 }
 
 
